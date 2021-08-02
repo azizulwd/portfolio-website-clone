@@ -14,6 +14,7 @@ Common-Css
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background: #191919;
 }
 .container{
     width: 1250px;
@@ -30,6 +31,9 @@ body{
 }
 .align_items_center{
     align-items: center;
+}
+.sectionMargin{
+    margin-bottom: 100px;
 }
 .link_btn {
     border: 1px solid gray;
@@ -48,7 +52,13 @@ ul{
     list-style: none;
 }
 h1{
-    font-size: 60px;
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+}
+h4{
+    font-size: 24px;
 }
 
 
@@ -59,6 +69,13 @@ Header-Css
 header{
     background: #101010;
     padding: 30px 0;
+    padding-bottom: 80px;
+}
+
+
+/* ======= Navigation ======= */
+.navigation{
+    margin-bottom: 50px;
 }
 .logo a img{
     width: 100%;
@@ -66,7 +83,6 @@ header{
 }
 .navigation_menu{
     gap: 30px;
-    margin-bottom: 50px;
 }
 .navigation_menu li a {
     color: #fff;
@@ -74,4 +90,40 @@ header{
 }
 .navigation_menu li a:hover{
     color: #fd4766;
+}
+
+
+/* ======= Banner ======= */
+.banner_text{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.banner_text h1 {
+    color: #1c99fe;
+    width: 1000px;
+    margin: 0 auto;
+    font-weight: 900;
+    line-height: 120px;
+}
+.services_motivation {
+    gap: 50px;
+}
+.service {
+    width: 33.33%;
+    text-align: center;
+}
+.service span {
+    color: #fd4766;
+    font-size: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.service h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.service p {
+    font-size: 18px;
+    color: gray;
+    line-height: 30px;
 }
