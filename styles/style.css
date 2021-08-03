@@ -191,3 +191,56 @@ About-Css
 .about_details a:hover::after{
     transform: scaleX(1);
 }
+
+
+
+/* ==========================
+Service-Css
+========================== */
+.works{
+    padding: 100px 0;
+    background: #101010;
+}
+.works_header{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.works_header h5{
+    color: #fd4766;
+    margin-bottom: 5px;
+}
+.works_header h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.works_header p{
+    font-size: 18px;
+    color: gray;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.projects_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+.project{
+    background: #0c0c0c;
+    padding: 30px;
+    border-radius: 15px;
+}
+.project span {
+    color: #fd4766;
+    font-size: 35px;
+    display: inline-block;
+}
+.project h4{
+    color: #fff;
+    margin-bottom: 25px;
+}
+.project p {
+    font-size: 18px;
+    color: gray;
+    line-height: 30px;
+}
