@@ -206,7 +206,7 @@ Service-Css
     text-align: center;
 }
 .works_header h5{
-    color: #fd4766;
+    color: #1c99fe;
     margin-bottom: 5px;
 }
 .works_header h2{
@@ -229,11 +229,17 @@ Service-Css
     background: #0c0c0c;
     padding: 30px;
     border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.project:hover{
+    box-shadow: 0 0 15px #191919;
 }
 .project span {
     color: #fd4766;
     font-size: 35px;
     display: inline-block;
+    margin-bottom: 12px;
 }
 .project h4{
     color: #fff;
