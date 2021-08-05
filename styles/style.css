@@ -63,6 +63,9 @@ h2{
 h4{
     font-size: 24px;
 }
+h5{
+    font-size: 16px;
+}
 
 
 
@@ -102,11 +105,13 @@ header{
     margin-bottom: 100px;
 }
 .banner_text h1 {
-    color: #1c99fe;
     width: 1000px;
     margin: 0 auto;
     font-weight: 900;
     line-height: 120px;
+    background-image: linear-gradient(to right, #1d9aff, #fd4766);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .services_motivation {
     gap: 50px;
@@ -170,11 +175,13 @@ About-Css
     line-height: 30px;
 }
 .about_details a {
-    color: #1c99fe;
     font-size: 14px;
     display: inline-block;
     padding: 8px 0;
     position: relative;
+    background-image: linear-gradient(to right, #1d9aff, #fd4766);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .about_details a::after {
     content: '';
@@ -205,9 +212,12 @@ Service-Css
     margin-bottom: 50px;
     text-align: center;
 }
-.works_header h5{
-    color: #1c99fe;
+.works_header h5 {
     margin-bottom: 5px;
+    background-image: linear-gradient(to right, #1d9aff, #fd4766);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 16px;
 }
 .works_header h2{
     color: #fff;
