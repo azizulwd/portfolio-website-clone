@@ -48,6 +48,13 @@ body{
     background: #fd4766;
     border: 1px solid #fd4766;
 }
+.h5coloredTitled{
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
 a{
     text-decoration: none;
 }
@@ -212,13 +219,6 @@ Service-Css
     margin-bottom: 50px;
     text-align: center;
 }
-.works_header h5 {
-    margin-bottom: 5px;
-    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
-    -webkit-background-clip: text;
-    color: transparent;
-    display: inline-block;
-}
 .works_header h2{
     color: #fff;
     margin-bottom: 10px;
@@ -271,13 +271,6 @@ Recent-Service-Css
 .recent_service_heading{
     text-align: center;
     margin-bottom: 50px;
-}
-.recent_service_heading h5{
-    margin-bottom: 5px;
-    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
-    -webkit-background-clip: text;
-    color: transparent;
-    display: inline-block;
 }
 .recent_service_heading h2{
     color: #fff;
@@ -360,13 +353,6 @@ Counter-Css
 .counter_header{
     margin-bottom: 50px;
     text-align: center;
-}
-.counter_header h5{
-    margin-bottom: 5px;
-    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
-    -webkit-background-clip: text;
-    color: transparent;
-    display: inline-block;
 }
 .counter_header h2{
     color: #fff;
@@ -453,13 +439,6 @@ Latest-News-Css
     text-align: center;
     margin-bottom: 50px;
 }
-.latest_news_title h5{
-    margin-bottom: 5px;
-    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
-    -webkit-background-clip: text;
-    color: transparent;
-    display: inline-block;
-}
 .latest_news_title h2{
     color: #fff;
     margin-bottom: 10px;
@@ -476,17 +455,9 @@ Latest-News-Css
 /* ==========================
 Client-Css
 ========================== */
-.client{}
 .client_title{
     text-align: center;
     margin-bottom: 50px;
-}
-.client_title h5{
-    margin-bottom: 5px;
-    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
-    -webkit-background-clip: text;
-    color: transparent;
-    display: inline-block;
 }
 .client_title h2{
     color: #fff;
