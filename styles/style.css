@@ -471,3 +471,41 @@ Latest-News-Css
     margin: 0 auto;
     line-height: 30px;
 }
+
+
+/* ==========================
+Client-Css
+========================== */
+.client{}
+.client_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.client_title h5{
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+.client_title h2{
+    color: #fff;
+}
+.client_container {
+    text-align: center;
+}
+.client_container img {
+    width: 135px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.client_container img:nth-child(5){
+    margin-right: 0;
+}
+.client_container img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
