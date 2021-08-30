@@ -332,6 +332,18 @@ Recent-Service-Css
     display: none;
     transition: 0.5s;
 }
+.recent_service .recent_service_content a{
+    font-size: 16px;
+    padding: 12px 25px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: #fff;
+    display: none;
+    transition: 0.4s;
+}
+.recent_service:hover .recent_service_content a{
+    display: inline-block;
+}
 .recent_service:hover .recent_service_content p{
     display: block;
 }
@@ -396,7 +408,6 @@ Counter-Css
 /* ==========================
 Testimonial-Css
 ========================== */
-.testimonial{}
 .testimonial_info h4 {
     color: #fff;
     font-size: 30px;
@@ -428,4 +439,35 @@ Testimonial-Css
 }
 .testimonial_img img:hover{
     transform: scale(1.1);
+}
+
+
+/* ==========================
+Latest-News-Css
+========================== */
+.latest_news{
+    background: #101010;
+    padding: 80px 0;
+}
+.latest_news_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.latest_news_title h5{
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, #1c99fe 20.69%, #7644ff 50.19%, #fd4766);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+.latest_news_title h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.latest_news_title p {
+    font-size: 18px;
+    color: gray;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
 }
